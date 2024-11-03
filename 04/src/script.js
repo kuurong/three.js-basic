@@ -5,6 +5,7 @@ const canvas = document.querySelector('canvas.webgl')
 
 // Scene
 const scene = new THREE.Scene()
+//d
 
 const group = new THREE.Group()
 group.scale.y = 2
