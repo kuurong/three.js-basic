@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  overflow: hidden;
+}
+
+/* 여전히 스크롤이 조금 가능하기때문에 밑 코드 추가 */
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+/* orbitcontrols.enabled= false한뒤
+맥북 트랙패드로 조금이라도 밑으로 가려고하면 밑에 하얀페이지를 조금볼수있는데
+이를 방지하기위해 html,body 코드 추가 */
